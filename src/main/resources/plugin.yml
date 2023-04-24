@@ -1,0 +1,3 @@
+name: InformDearPlayer
+version: '${project.version}'
+main: com.mcstaralliance.informdearplayer.InformDearPlayer

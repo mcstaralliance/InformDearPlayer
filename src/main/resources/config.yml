@@ -1,0 +1,4 @@
+resource-world-alert:
+  world-name: world_resource
+  interval: 60
+  message: '&a&l您正位于资源世界，请注意不要在这里建筑。'
