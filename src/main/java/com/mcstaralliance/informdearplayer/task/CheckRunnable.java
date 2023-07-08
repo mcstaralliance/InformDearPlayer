@@ -15,14 +15,14 @@ public class CheckRunnable extends BukkitRunnable {
 
     @Override
     public void run() {
-        informInResourceWord();
+        informInResourceWorld();
     }
 
     public List<Player> getOnlinePlayers() {
         return new ArrayList<>(Bukkit.getOnlinePlayers());
     }
 
-    public void informInResourceWord() {
+    public void informInResourceWorld() {
         for (Player player : getOnlinePlayers()) {
             String worldName = config.getString("resource-world-alert.world-name");
             String message = config.getString("resource-world-alert.message");
